@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>Tigers</title>
+</head>
+
+<body> 
+    <div id="page-home">
+        <img class="logo" src="assets/logo.jpg" alt="Logomarca">    
+        <fieldset>
+            <div id="game-select">
+                <h1>Torne-se um predador</h1>
+                <div class="item-grid">
+                <button data-id="lol"><img src="/assets/lol.jpg" alt="League of Legends"></button>
+                <button data-id="cs"><img src="/assets/cs.png" alt="Counter Strike"></button>
+                <button data-id="fort"><img src="/assets/fortnite.png" alt="Fortnite"></button>
+                </div>
+            </div>
+
+            <div id="form" class="hide">
+                <form action="">
+                    <h2>Preencha com seus dados</h2>
+                    <div class="field">
+                        <label for="name">Nome Completo</label>
+                        <input type="text" name="name" required="required"placeholder="Nome">
+                    </div>
+                    <div class="field">
+                        <label for="nick">Nick no jogo</label>
+                        <input type="text" name="nick" required="required" placeholder="Nick">
+                    </div>
+                    <div class="field">
+                        <label for="discord">Discord</label>
+                        <input type="text" name="discord" required="required" placeholder="Nick#tag">
+                    </div>
+                    <input type="hidden" name="game">
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+
+
+        </fieldset>
+    </div>
+
+<script src="/scripts/main.js"></script>
+
+</body>
+</html>

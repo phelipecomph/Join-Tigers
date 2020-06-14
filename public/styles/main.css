@@ -1,0 +1,121 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #0b0e43;
+}
+
+#page-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page-home .logo {
+    min-width: 400px;
+    width: 20%;
+}
+
+
+
+fieldset {
+    background-color: #dcdef5;
+
+    border-radius: 8px;
+    border: 0;
+
+    /* Largura do card */
+    width: 50%;
+    max-width: 730px;
+
+    outline: none;
+
+    /* margem dentro do card */
+    /* padding: 0 84px; */
+}
+
+#game-select.hide {
+    display: none;
+}
+
+#game-select h1 {
+    color: #0f465c;
+    font-size: bold;
+}
+
+#game-select .item-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#game-select .item-grid button {
+    background-color: #E6E8FF;
+    list-style: none;
+
+    width: 90px;
+    padding: 5px;
+
+    border-radius: 8px;
+    border: 2px solid #C3C5D9;
+
+    transition: 400ms;
+}
+
+#game-select .item-grid button:hover {
+    background-color: #C3C5D9;
+}
+
+#game-select .item-grid button img{
+    max-width: 80px;
+    pointer-events: none;
+}
+
+
+
+#form.hide {
+    display: none;
+}
+
+#form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form form input {
+    width: 260px;
+    height: 26px;
+    font-size: 18px;
+
+    background-color: #f0f0f5;
+
+    border: 0;
+    outline: none;
+    border-radius: 8px;
+
+    margin-bottom: 24px;
+    
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#form form button {
+    width: 260px;
+    height: 56px;
+
+    background-color: #f0f0f5;
+    font-weight: bold;
+    font-size: 16px;
+
+    border: 0;
+    border-radius: 8px;
+
+    transition: 400ms;
+}
+
+#form form button:hover {
+    background-color: #C3C5D9;
+}
