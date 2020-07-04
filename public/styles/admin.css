@@ -1,0 +1,67 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #0b0e43;
+}
+
+#page-admin .logo {
+    min-width: 200px;
+    width: 20%;
+}
+
+fieldset {
+    background-color: #dcdef5;
+
+    border-radius: 8px;
+    border: 0;
+
+    margin: 0 5%;
+}
+
+h1 {
+    color: #0f465c;
+    font-size: bold;
+}
+
+
+table {
+    width: 100%;
+    margin: 20px 0 0;
+    /* border: 0px solid #ff7f00;
+    border-radius: 8px; */
+    
+}
+
+thead {
+    background: #ff7f00;
+    color: white;
+    font-weight: bold;
+}
+
+tbody {
+    background: #555555;
+    color: white;
+}
+
+td,
+th {
+    padding: 8px 15px;
+}
+
+th:first-child {
+    border-radius: 8px 0 0 0;
+}
+
+th:last-child {
+    border-radius: 0 8px 0 0;
+}
+
+tr:last-child td:first-child {
+    border-radius: 0 0 0 8px;
+}
+
+tr:last-child td:last-child {
+    border-radius: 0 0 8px 0;
+}

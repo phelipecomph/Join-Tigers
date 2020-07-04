@@ -18,6 +18,10 @@ server.get("/", (req, res) => {
     return res.render("index.html")
 })
 
+server.get("/admin", (req, res) => {
+    return res.render("admin.html")
+})
+
 
 //Ligar o servidor
 console.log("Server ligado")
